@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipuri de Abonamente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .abonament {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .abonament:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .abonament h2 {
+            color: #333;
+            font-size: 1.5rem;
+        }
+        .abonament p {
+            color: #555;
+            margin: 15px 0;
+        }
+        .abonament .pret {
+            font-size: 1.2rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .abonament button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .abonament button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tipuri de Abonamente</h1>
+    </header>
+    <main>
+        <div class="abonament">
+            <h2>Abonament Basic</h2>
+            <p>Ideal pentru începători. Include acces limitat la funcționalități de bază.</p>
+            <p class="pret">19,99 RON/lună</p>
+            <button>Alege Basic</button>
+        </div>
+        <div class="abonament">
+            <h2>Abonament Standard</h2>
+            <p>Perfect pentru utilizatorii care au nevoie de mai multe opțiuni.</p>
+            <p class="pret">39,99 RON/lună</p>
+            <button>Alege Standard</button>
+        </div>
+        <div class="abonament">
+            <h2>Abonament Premium</h2>
+            <p>Acces complet la toate funcționalitățile și suport dedicat.</p>
+            <p class="pret">59,99 RON/lună</p>
+            <button>Alege Premium</button>
+        </div>
+    </main>
+</body>
+</html>
